@@ -14,6 +14,8 @@ struct AlertItem : Identifiable {
     let dismissButton : Alert.Button
 }
 
+
+//Brought AlertContent to the Alert.swift file
 struct AlertContext {
     static let invalidDeviceInput = AlertItem(title: "Invalid Device Input",
                                               message: "Something is wrong with the camera. We are are unable to capture the input ",
